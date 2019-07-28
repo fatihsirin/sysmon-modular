@@ -5,6 +5,8 @@
           <TargetImage name="technique_id=T1055,technique_name=Process Injection" condition="is">C:\Windows\System32\rundll32.exe</TargetImage>
           <TargetImage name="technique_id=T1055,technique_name=Process Injection" condition="is">C:\Windows\System32\svchost.exe</TargetImage>
           <TargetImage name="technique_id=T1055,technique_name=Process Injection" condition="is">C:\Windows\System32\sysmon.exe</TargetImage>
+          <TargetImage name="technique_id=T1055,technique_name=Process Injection" condition="is">C:\Windows\System32\regsvr32.exe</TargetImage>
+          <TargetImage name="technique_id=T1055,technique_name=Process Injection" condition="is">C:\Windows\SysWoW64\regsvr32.exe</TargetImage>      
       </CreateRemoteThread>
   </EventFiltering>
 </Sysmon>
